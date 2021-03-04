@@ -38,6 +38,50 @@ a {
 }
 
 main {
-  background-color: #245e24;
-  height: 2.5rem;
+  background-color: #0d375e;
+  height: 560px;
+  color: blanchedalmond;
+  font-size: 1.1rem;
+  /* position: relative; */
+  display: flex;
+  padding: 5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+  /* background-image: url(./city_driver.svg); */
+}
+
+img {
+  width: 40rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-size: 1.5em;
+  font-style: bold;
+  border: 2px solid black;
+}
+
+nav div span {
+  color: blueviolet;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+main p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+main a {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  background-color: #0d375e;
+  color: blanchedalmond;
 }
